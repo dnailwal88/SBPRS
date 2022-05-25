@@ -1,0 +1,17 @@
+name: sbprs_app
+
+channels:
+  - conda-forge
+  - anaconda
+
+dependencies:
+  - pip
+  - python=3.9.7
+  - pickle
+  - nltk
+  - wordcloud
+  - swifter
+  - imblearn
+  - xgboost
+  - pip:
+    - -r requirements.txt
